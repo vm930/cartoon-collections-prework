@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(phrase)# code an argument here
   # Your code here
-  phrase.all? {|n| n.length > 4}
+  phrase.all? {|n| n.length >= 4?}
 end
 
 def find_the_cheese# code an argument ere
