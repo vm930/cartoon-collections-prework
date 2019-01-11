@@ -3,10 +3,10 @@ def roll_call_dwarves(dwarves)
 	dwarves.each_with_index { |name,i| puts "#{i+1}. #{name}" }
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(planeteer_calls)
   # code an argument here
   # Your code here
-  veggies.map { |n| n * n }
+  planeteer_calls.map { |n| n * n }
 end
 
 def long_planeteer_calls# code an argument here
