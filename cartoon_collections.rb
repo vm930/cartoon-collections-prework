@@ -6,6 +6,7 @@ end
 def summon_captain_planet(veggies)
   # code an argument here
   # Your code here
+  veggies.map { |n| n * n }
 end
 
 def long_planeteer_calls# code an argument here
