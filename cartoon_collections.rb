@@ -11,7 +11,7 @@ end
 
 def long_planeteer_calls(phrase)# code an argument here
   # Your code here
-  phrase.new(3, true) #=> [true, true, true]
+  phrase.new{|n| n.length > 5}
 end
 
 def find_the_cheese# code an argument here
