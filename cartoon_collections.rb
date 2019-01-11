@@ -6,7 +6,7 @@ end
 def summon_captain_planet(planeteer_calls)
   # code an argument here
   # Your code here
-  planeteer_calls.map { |n| n * n }
+  planeteer_calls.map { |n| puts"#{n}!" }
 end
 
 def long_planeteer_calls# code an argument here
